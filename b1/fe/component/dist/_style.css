@@ -1,0 +1,78 @@
+.container {
+  height: 26.5rem;
+  align-items: center;
+  width: 23.5rem;
+  margin-left: 4em;
+  background-color: white;
+  border-style: groove;
+  border-width: 0.1px;
+  border-radius: 8px;
+  border-width: 2px;
+  transition-duration: 0.4s;
+}
+
+.container:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.picture {
+  height: 13.7rem;
+  width: 23.5rem;
+}
+
+.style {
+  padding: 20px;
+  padding-top: 18px;
+  margin: 8px;
+  font-family: "Verdana", sans-serif;
+}
+.style span {
+  color: #8c8c8c;
+  display: block;
+  background-color: white;
+  font-size: 10px;
+  padding-bottom: 3px;
+}
+.style strong {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: unset;
+  justify-content: flex-end;
+  background-color: white;
+  padding-top: 3px;
+  padding-bottom: 7px;
+  font-size: 14.5px;
+}
+.style p {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: unset;
+  justify-content: flex-end;
+  align-items: stretch;
+  text-align: justify;
+  color: #8c8c8c;
+  background-color: white;
+  padding: auto;
+  margin: auto;
+  font-size: 12px;
+  font-weight: lighter;
+  line-height: 1.5;
+  padding-top: 5px;
+  padding-bottom: 17px;
+}
+.style button {
+  border: 1.5px solid #9355ac;
+  color: #9355ac;
+  background-color: #ffffff;
+  border-radius: 4px;
+  padding: 13px;
+  padding-left: 18px;
+  padding-right: 18px;
+  font-weight: 600;
+  transition: all linear 0.3s;
+}
+.style button:hover {
+  background-color: #9355ac;
+  color: #ffffff;
+  cursor: pointer;
+}

@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href=".\dist\bem.css">
+    <title>Bem</title>
+    <link rel="stylesheet" href="./dist/bem.css">
 </head>
 <body>
     <header class="header">
-        <div class="header_logo header__logo--top">
+        <div class="header__logo header__logo--top header__logo--font16">
             logo
         </div>
-        <nav class="header_nav">
+        <nav class="header__nav">
             <a class="header__nav-item header__nav-item--active" href=""></a>
             <a class="nav__item nav__item--active" href=""></a>
             <a class="c-header__nav__item--active" href=""></a>
@@ -22,12 +22,28 @@
     <main>
         <aside></aside>
         <section class="over">
-            <!-- section bat buoc co h ben trong-->
-            <h2 class=""></h2>
+            <!-- section bat buoc phai co the h ben trong -->
+            <h2 class="over__title"></h2>
+            <div class="over__inner">
+                
+            </div>
         </section>
+        <section class=""></section>
+        <section class=""></section>
+        <section class=""></section>
     </main>
-    <footer>
+    <footer class="footer">
+        <div class="footer__inner">
 
+        </div>
     </footer>
+    <div>
+        <a href="https://www.w3schools.com/html/html_layout.asp">bai tap</a>
+        <p>
+            Code lại layout trên sử dụng scss tách component , đặt tên theo chuẩn Bem
+            ex: responsive layout này với breakpoint 768px
+            từ khoá : media query , đơn vị vw (Css)
+        </p>
+    </div>
 </body>
 </html>
